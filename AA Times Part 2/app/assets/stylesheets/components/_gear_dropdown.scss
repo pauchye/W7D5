@@ -1,0 +1,24 @@
+
+.gear-dropdown {
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    color: gray;
+    top: 30px;
+    right: 1px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    z-index: 1;
+    box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
+}
+
+.gear-dropdown .editions li, .gear-dropdown .help li{
+  position: relative;  
+  margin: 5px;
+
+}
+
+.gear-dropdown .edition:hover li{
+    position: relative; 
+}
